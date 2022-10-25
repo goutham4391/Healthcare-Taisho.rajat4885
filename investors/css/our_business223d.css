@@ -1,0 +1,640 @@
+@charset "utf-8";
+/*=============================================================
+ Layout
+=============================================================*/
+/* pageTtl
+-------------------------------------------------------------*/
+#contents #pageTtl h1 {
+	margin:0;
+	padding: 0 0 30px 0;
+	text-align:center;
+}
+#contents #pageTtl p {
+	text-align:center;
+	margin-bottom: 100px;
+}
+/* Ttl
+-------------------------------------------------------------*/
+#contents .categoryTtl {
+	position:relative;
+}
+#contents .categoryTtl h2 {
+	width:100%;
+	margin:0;
+	padding:0;
+	font-size:64px;
+	font-weight:300;
+	color:#fff;
+	line-height:1.15;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:0;
+	transform:translateY(-50%);
+	text-shadow:3px 4px 40px #666666;
+}
+#contents .categoryTtl img {
+	width:100%;
+}
+#contents .categoryTtl h3 {
+	margin:80px 0 20px;
+	font-size:46px;
+	font-weight:400;
+	color:#fff;
+	text-align:center;
+}
+/* boxContents
+-------------------------------------------------------------*/
+/* boxContents */
+#self-medication .boxContents,
+#prescription-pharmaceutical .boxContents{
+	background-color:#fff;
+}
+.boxContentsInner{
+	max-width:905px;
+	margin:0 auto;
+	padding:0 60px 90px;
+}
+/* catchArea
+-------------------------------------------------------------*/
+#contents .catchArea {
+	padding:60px;
+	background-color:#eeeeee;
+	text-align:center;
+}
+#contents .catchArea h4 {
+	font-size:24px;
+	margin:0;
+	padding:0;
+	font-weight:600;
+	color:#333;
+}
+#contents .catchArea .txtCatch {
+	font-size:48px;
+	margin:0;
+	padding:20px 0 0;
+	font-weight:300;
+	line-height:1.25;
+}
+#self-medication .txtCatch {
+	color:#0096e0;
+}
+#prescription-pharmaceutical .txtCatch {
+	color:#41b25d;
+}
+/* .boxContentsInner
+-------------------------------------------------------------*/
+#contents .boxContentsInner h5{
+	font-size:32px;
+	margin:0;
+	padding:90px 0 20px;
+	font-weight:600;
+	text-align:center;
+}
+#self-medication .boxContentsInner h5 {
+	color:#0096e0;
+}
+#prescription-pharmaceutical .boxContentsInner h5 {
+	color:#41b25d;
+}
+#contents h6 {
+	padding:0 0 10px;
+	font-size:22px;
+	font-weight:600;
+}
+#contents h6 .small {
+	font-size:65%;
+	font-weight:400;
+}
+#contents .boxGraph {
+	padding-top:90px;
+	text-align:center;
+}
+#contents .boxGraph img {
+	max-width:100%;
+}
+#contents .boxPhoto {
+	padding-top:40px;
+	text-align:center;
+}
+#contents .boxPhoto img {
+	max-width:100%;
+}
+#contents p.note {
+	font-size:14px;
+	line-height:1.65;
+	padding-top:15px;
+}
+
+/* intro
+-------------------------------------------------------------*/
+#intro {
+	padding:90px 0 90px;
+	background-color:#eeeeee;
+	text-align:center;
+}
+
+#introFigure {
+	width:100%;
+	max-width:904px;
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	position:relative;
+}
+#introFigure img{
+	width:100%;
+}
+/*#introFigure .boxIntroFigureL,
+#introFigure .boxIntroFigureR {
+	margin:80px 0 0;
+	width:calc(50% - 10px);
+	position:relative;
+	box-sizing:border-box;
+	text-align:left;
+}
+#introFigure .boxh2 {
+	width:100%;
+	height:80px;
+	display:table;
+	position:absolute;
+	top:-95px;
+	left:0;
+}
+#introFigure .boxIntroFigureR .boxh2 h2 {
+	padding:0 0 0 39%;
+}
+#introFigure h2 {
+	margin:0;
+	display:table-cell;
+	vertical-align:bottom;
+	font-size:30px;
+	font-weight:300;
+	line-height:1.05;
+}	
+#introFigure .boxIntroFigureL {
+	color:#0096e0;
+	padding:0 19% 0 0;
+	border-top:1px solid #0096e0;
+}
+#introFigure .boxIntroFigureR {
+	color:#41b25d;
+	padding:0 0 0 19%;
+	border-top:1px solid #41b25d;
+}
+#introFigure p,
+#introFigure p+p {
+	margin:0;
+}
+#introFigure .num {
+	padding:30px 0 10px;
+	font-size:50px;
+	font-weight:300;
+	line-height:1.05;
+}
+#introFigure .num strong {
+	font-size:80px;
+	font-weight:300;
+}
+#introFigure .name {
+	padding-top:25px;
+	line-height:1.05;
+	font-weight:600;
+}
+#introFigure .numS {
+	padding:5px 0 0;
+	font-size:50px;
+	font-weight:300;
+	line-height:1.05;
+}
+#introFigureSircle {
+	width:100%;
+	position:absolute;
+	top:50px;
+	left:0;
+}
+#introFigure .introBoxSircle {
+	width:37%;
+	margin:0 auto;
+}
+#introFigure .introBoxSircle img{
+	width:100%;
+}*/
+#intro ul.list-inline{
+	padding:90px 0 0;
+}
+#intro ul.list-inline li {
+ font-size: 35px;
+	font-weight:300;
+}
+#intro a.page {
+ padding: 4px 0 4px 28px;
+}
+#intro a.page::before {
+	width: 15px;
+	height: 15px;
+	top: 20px;
+}
+
+
+/* Self-medication
+-------------------------------------------------------------*/
+#self-medication{
+	background-color:#0096e0;
+	padding-bottom:80px;
+}
+#self-medication #boxHistory {
+	padding-top:90px;
+	text-align:center;
+}
+#self-medication #boxHistoryInner {
+	padding-top:20px;
+	text-align:left;
+	border-bottom:1px solid #c8c8c8;
+}
+#self-medication #boxHistory .box {
+	padding:35px 0;
+	border-top:1px solid #c8c8c8;
+}
+#self-medication #boxHistory .box dl{
+	position:relative;
+	padding:0 0 0 110px;
+}
+#self-medication #boxHistory .box dt{
+	width:110px;
+	position:absolute;
+	top:-8px;
+	left:0;
+	font-size:43px;
+	line-height:43px;
+	color:#0096e0;
+	font-weight:300;
+}
+#self-medication #boxHistory .box dd{
+	position:relative;
+	padding:0 0 0 90px;
+}
+#self-medication #boxHistory .box dd .boxIcn{
+	width:46px;
+	position:absolute;
+	top:-0px;
+	left:0;
+}
+#self-medication #boxHistory .box dd .boxIcn img{
+	width:100%;
+}
+#self-medication #boxHistory .box dd p{
+	font-size:24px;
+	line-height:1.25;
+	padding:0;
+}
+#self-medication #boxHistory .box dd ul{
+	font-size:0;
+}
+
+#self-medication #boxHistory .box dd ul li{
+	display:inline-block;
+	padding:20px 15px 0 0;
+	vertical-align:bottom;
+}
+#self-medication #boxHistory .box dd ul+p{
+	padding:60px 0 0;
+}
+#self-medication #boxHistory .box dd+dd{
+	margin:60px 0 0;
+}
+#self-medication #boxHistory .box dd ul.clm01{
+	padding:35px 64px 0 0;
+	position:relative;
+	display:inline-block;
+}
+#self-medication #boxHistory .box dd ul li.fixPhoto{
+	width:64px;
+	padding:0 0 0 0;
+	height:auto;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+#self-medication #boxHistory .box dd ul li.fixPhoto img{
+	width:64px;
+}
+@media screen and (min-width:768px) and ( max-width:1000px) {
+	#self-medication #boxHistory .box dd ul.clm01{
+		padding:0px 64px 0 0;
+	}
+	#self-medication #boxHistory .box dd ul.clm01 li:nth-child(2){
+		display:block;
+		}
+}
+#self-medication #boxBtn{
+	max-width:376px;
+	margin:0 auto;
+	padding:90px 0 0;
+	text-align:center;
+}
+.btnDefault {
+	max-width:none;
+}
+#self-medication #photo02 img{
+	max-width:435px;
+}
+
+
+/* Prescription pharmaceutical
+-------------------------------------------------------------*/
+#prescription-pharmaceutical{
+	background-color:#41b25d;
+	padding-bottom:80px;
+}
+#prescription-pharmaceutical .boxContentsOuter{
+	margin-top:80px;
+}
+#prescription-pharmaceutical #photo03 img{
+	max-width:435px;
+}
+/*#prescription-pharmaceutical #photo04 img{
+	max-width:595px;
+}*/
+#prescription-pharmaceutical #tableArea table{
+	width:100%;
+	font-size:16px;
+	border-collapse:collapse;
+	line-height:1.05;
+}
+#prescription-pharmaceutical #tableArea table th,
+#prescription-pharmaceutical #tableArea table td{
+	padding:16px 10px;
+	text-align:center;
+	vertical-align:middle;
+}
+#prescription-pharmaceutical #tableArea table th{
+	background-color:#c6e8ce;
+	border-bottom:1px solid #41b25d;
+}
+#prescription-pharmaceutical #tableArea table tr th:first-child{
+	border-right:1px solid #41b25d;
+}
+#prescription-pharmaceutical #tableArea table tr th.bdRightNon{
+	border-right:none;
+}
+#prescription-pharmaceutical #tableArea table .bdLeftDot{
+	border-left:1px dotted #41b25d;
+}
+#prescription-pharmaceutical #tableArea table th.numPhase{
+	width:81px;
+	box-sizing:border-box;
+}
+#prescription-pharmaceutical #tableArea table tr:nth-child(even) td{
+	background-color:#ecf7ef;
+}
+#prescription-pharmaceutical #tableArea table td img.icn{
+	width:19px;
+}
+#prescription-pharmaceutical #tableArea table tr td.bdBtmSolid{
+	border-bottom:1px solid #41b25d;
+}
+#prescription-pharmaceutical #tableCaption{
+	padding:10px 0 0;
+}
+#prescription-pharmaceutical #tableCaption p,
+#prescription-pharmaceutical #tableCaption ul{
+	display:inline-block;
+	font-size:14px;
+}
+#prescription-pharmaceutical #tableCaption p{
+	padding:0 30px 0 0;
+}
+#prescription-pharmaceutical #tableCaption ul li{
+	display:inline-block;
+	padding:0 15px 0 34px;
+	position:relative;
+}
+#prescription-pharmaceutical #tableCaption ul li::before{
+	content:"";
+	display:block;
+	width:10px;
+	height:1px;
+	border-bottom:2px dotted #333;
+	position:absolute;
+	top:50%;
+	left:22px;
+	transform:translateY(-50%);
+}
+#prescription-pharmaceutical #tableCaption ul li::after{
+	content:"";
+	display:block;
+	width:19px;
+	height:21px;
+	background:url(../img/icn_injection.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:50%;
+	left:0;
+	transform:translateY(-50%);
+}
+#prescription-pharmaceutical #tableCaption ul li:last-child::after{
+	background:url(../img/icn_oral.png);
+	background-size:100% 100%;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Smartphones
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media only screen and (max-width:767px) {
+/*=============================================================
+ Layout
+=============================================================*/
+/* pageTtl
+
+-------------------------------------------------------------*/
+#contents #pageTtl h1 {
+ margin:0;
+ padding: 0 0 20px;
+}
+#contents #pageTtl {
+ margin:0;
+ padding: 40px 0;
+}
+/* Ttl
+-------------------------------------------------------------*/
+#contents .categoryTtl h2 {
+	font-size:38px;
+}
+#contents .categoryTtl h3 {
+	margin:30px 0 15px;
+	font-size:28px;
+}
+/* catchArea
+-------------------------------------------------------------*/
+#contents .catchArea {
+	padding:30px 15px;
+}
+#contents .catchArea h4 {
+	font-size:20px;
+}
+#contents .catchArea .txtCatch {
+	font-size:28px;
+	padding:15px 0 0;
+}
+/* .boxContentsInner
+-------------------------------------------------------------*/
+.boxContentsInner{
+	padding:0 15px 35px;
+}
+#contents .boxContentsInner h5{
+	font-size:22px;
+	padding:35px 0 15px;
+	line-height:1.15;
+}
+#contents h6 {
+	font-size:20px;
+}
+#contents .boxGraph {
+	padding-top:35px;
+}
+
+#contents .boxPhoto {
+	padding-top:25px;
+}
+#contents .boxPhoto img {
+	width:100%;
+	max-width:100%;
+}
+/* intro
+-------------------------------------------------------------*/
+#intro {
+	padding:35px 0 35px;
+}
+
+#introFigure {
+	max-width:600px;
+}
+#intro ul.list-inline{
+	padding:15px 0 0;
+}
+#intro ul.list-inline li {
+	padding:15px 0 0;
+ font-size: 17px;
+	line-height:1.05;
+}
+#intro a.page {
+ padding: 4px 0 4px 19px;
+}
+#intro a.page::before {
+	width: 8px;
+	height: 8px;
+	top:6px;
+}
+/* Self-medication
+-------------------------------------------------------------*/
+#self-medication{
+	padding-bottom:40px;
+}
+#self-medication #graph01 img{
+/*	width:auto;
+	max-height:187px;*/
+	width: 60%;
+}
+#self-medication #graph02 img{
+	/*width:auto;
+	max-width:none;
+	max-height:244px;
+	padding-bottom:20px;*/
+/*	width:auto;
+	max-height:187px;*/
+	width: 80%;
+	padding-bottom:20px;
+}
+#self-medication #boxHistory {
+	padding-top:35px;
+}
+#self-medication #boxHistoryInner {
+	padding-top:10px;
+}
+#self-medication #boxHistory .box {
+	padding:15px 0 55px;
+}
+#self-medication #boxHistory .box dl{
+	padding:0;
+}
+#self-medication #boxHistory .box dt{
+	width:100%;
+	position:static;
+	padding-bottom:15px;
+}
+#self-medication #boxHistory .box dd{
+	padding:0;
+}
+#self-medication #boxHistory .box dd:nth-child(odd){
+	padding-top:30px;
+}
+#self-medication #boxHistory .box dd .boxIcn{
+	width:55px;
+	position:static;
+	/*padding-bottom:15px;*/
+	padding-bottom:5px;
+}
+#self-medication #boxHistory .box dd p{
+	font-size:22px;
+	padding:0;
+}
+#self-medication #boxHistory .box dd ul li{
+	padding:20px 15px 0 0;
+}
+#self-medication #boxHistory .box dd ul li:last-child{
+	padding:20px 0 0 0;
+}
+#self-medication #boxHistory .box dd ul+p{
+	padding:50px 0 0;
+}
+#self-medication #boxHistory .box dd+dd{
+	margin:50px 0 0;
+}
+#self-medication #boxHistory .box dd ul.clm01{
+	padding:0px 64px 0 0;
+}
+#self-medication #boxHistory .box dd ul.clm01 li:nth-child(2){
+	display:block;
+}
+#self-medication #boxBtn{
+	padding:35px 0 0;
+}
+/* Prescription pharmaceutical
+-------------------------------------------------------------*/
+#prescription-pharmaceutical{
+	padding-bottom:40px;
+}
+#prescription-pharmaceutical #graph03 img{
+	/*width:auto;
+	max-width:none;
+	max-height:244px;
+	padding-bottom:20px;*/
+/*	width:auto;
+	max-height:187px;*/
+	width:80%;
+	padding-bottom:20px;
+}
+#prescription-pharmaceutical #tableArea table{
+	width:auto;
+	font-size:13px !important;
+	margin-bottom:10px;
+}
+#prescription-pharmaceutical #tableArea table th,
+#prescription-pharmaceutical #tableArea table td{
+	white-space:nowrap;
+	font-size:13px !important;
+}
+#prescription-pharmaceutical #tableArea table th.numPhase{
+	width:60px;
+	padding:10px 20px;
+	box-sizing:border-box;
+}
+#prescription-pharmaceutical #tableArea table td img.icn{
+	width:16px;
+}
+#prescription-pharmaceutical #tableCaption p,
+#prescription-pharmaceutical #tableCaption ul{
+	display:block;
+}
+}

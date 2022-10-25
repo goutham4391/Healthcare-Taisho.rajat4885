@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/*---------------------------------------------
+	finance common
+----------------------------------------------*/
+.ir h2:first-child{
+	margin-top: 0 !important;
+}
+.ir .box-clm2 .box .sp-table-scroll{
+	overflow: auto;
+	white-space: nowrap;
+	table-layout: auto;
+	-webkit-overflow-scrolling: touch;
+	position: relative;
+}
+.ir .box-clm2 .box .sp-table-scroll .table-default{
+	width: 100%;
+}
+
+/* sortBtn common */
+.ir .box-clm2 .box .sortBtn1,
+.ir .box-clm2 .box .sortBtn2{
+	text-align: center !important;
+}
+.ir .sortBtn1 input.checkBtn,
+.ir .sortBtn2 input.checkBtn{
+	display: none;
+}
+.ir .sortBtn1 span.checkName,
+.ir .sortBtn2 span.checkName{
+	padding-right: 20px;
+	position:relative;
+	font-size: 120%;
+}
+.ir .sortBtn1 span.checkName::before,
+.ir .sortBtn2 span.checkName::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 4px;
+	right: 0;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #3497fd;
+	border-radius: 4px;
+	background: #3497fd;
+}
+.ir .sortBtn1 .checkBtn:checked + .checkName,
+.ir .sortBtn2 .checkBtn:checked + .checkName{
+/*	color: #3497fd;*/
+/*	font-weight: bold;*/
+}
+.ir .sortBtn1 .checkBtn:checked + .checkName::after,
+.ir .sortBtn2 .checkBtn:checked + .checkName::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 4px;
+	width: 5px;
+	height: 10px;
+	transform: rotate(40deg);
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+}
+.ir .sortBtn1 label,
+.ir .sortBtn2 label{
+	position:relative;
+	padding-left: 20px;	
+	margin: 0 12px;
+}
+.ir .sortBtn1 label::before,
+.ir .sortBtn2 label::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 14px;
+	height: 14px;
+}
+/* sortBtn1 */
+.ir .sortBtn1 label.q1::before{border-left: 14px solid #7fcaef;}
+.ir .sortBtn1 label.q2::before{border-left: 14px solid #0096e0;}
+.ir .sortBtn1 label.q3::before{border-left: 14px solid #7fa8ea;}
+.ir .sortBtn1 label.q4::before{border-left: 14px solid #0153d6;}
+
+/* sortBtn2 */
+.ir .sortBtn2 label.q1::before{border-left: 14px solid #8dd19d;}
+.ir .sortBtn2 label.q2::before{border-left: 14px solid #41b25d;}
+.ir .sortBtn2 label.q3::before{border-left: 14px solid #78b3db;}
+.ir .sortBtn2 label.q4::before{border-left: 14px solid #1e8091;}
+
+/* financial_highlights
+-----------------------------------*/
+#financial_highlights h1{padding-bottom: 50px;}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Smartphones
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media only screen and (max-width:767px){
+
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Smartphones (portrait)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media only screen and (max-width:440px){
+
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Smartphones small (portrait)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media only screen and (max-width:374px){
+
+}

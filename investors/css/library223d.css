@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.ir h2:first-child{
+	margin-top: 0 !important;
+}
+
+/*---------------------------------------------
+	financial.html
+----------------------------------------------*/
+#financial .boxContents section.s_eirBlock:nth-child(n+2) h2{
+	margin-top: 1.7em !important;
+}
+#financial .boxContents ul.eirGroup.s_eirList li.eirItem.s_eirList_item:nth-child(even){
+	margin-left: 1em;
+}
+
+
+/*---------------------------------------------
+	presentations.html
+----------------------------------------------*/
+#presentations .boxContents section.s_eirBlock:nth-child(n+2) h2{
+	margin-top: 1.7em !important;
+}
+#presentations .boxContents ul.eirGroup.s_eirList li div.eirItem_comment.s_eirList_item_comment{
+	margin-left: 0.9em;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Smartphones
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media only screen and (max-width:767px){
+/*---------------------------------------------
+	financial.html
+----------------------------------------------*/
+	/*#financial .boxContents .box-clm2{
+		padding-bottom: 0.5em;
+		margin-bottom: 0.5em;
+		border-bottom: 1px solid #ccc;
+	}*/
+/*---------------------------------------------
+	presentation.html
+----------------------------------------------*/
+	#presentations .boxContents .box-clm3{
+		padding-bottom: 0.5em;
+		margin-bottom: 0.5em;
+		border-bottom: 1px solid #ccc;
+	}
+/*---------------------------------------------
+	annual.html
+----------------------------------------------*/
+	#annual .box-clm2WideL figure{
+		width: 75%;
+		margin: 0 auto;
+	}
+
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Smartphones (portrait)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media only screen and (max-width:440px){
+
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Smartphones small (portrait)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media only screen and (max-width:374px){
+
+}
